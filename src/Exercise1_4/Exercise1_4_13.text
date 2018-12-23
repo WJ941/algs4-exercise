@@ -1,0 +1,31 @@
+Accumulator = 40字节
+实例变量 一个int和2个double
+16字节对象开销
+4字节int
+2*8字节double
+4字节填充
+
+Transaction = 64字节
+实例变量 1个String 1个Date 1个double
+16字节对象开销
+8字节1个String
+32字节1个Date
+8字节1个double
+总计 64字节
+
+
+FixedCapacityStackOfStrings = 16 + 8 * C
+
+
+Point2D = 16 + 2 * 8 = 32 bytes
+2 double
+1 XOrder
+1 YOrder
+1 ROrder
+
+Interval1D = 16 + 2 * 8 = 32 bytes
+
+
+Interval2D = 16 + 8 + 8 = 32 bytes
+
+Double = 16 + 8 = 24 bytes
