@@ -1,0 +1,8 @@
+average = 2*N*InN;
+sd = 0.65N;
+0.1N*N;
+K = (0.1*N*N - 2*N*InN) / 0.65N;
+K = (0.1*N - 2*InN) / 0.65;
+when K = Math.pow(10, 6);
+K = 153803
+1/(K*K) = 4e-11
