@@ -1,0 +1,2 @@
+children of pq[k]: pq[2k+1] and pq[2k+2];
+parent of pq[k]: pq[(k-1)/2].
