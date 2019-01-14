@@ -1,0 +1,1 @@
+选择本书中的BinarySearchST，因为get操作更多，时间成本是对数级别。
